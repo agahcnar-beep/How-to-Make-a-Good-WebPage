@@ -1,0 +1,67 @@
+  a {
+    text-decoration:none;
+    line-height:7px;
+    color:white;
+}
+   .HTML {
+     background-color:rgb(233, 62, 48);
+     padding: 2px 6px;
+     border-radius: 4px;
+   }
+   a.HTML:hover {
+     background-color:rgb(255, 155 ,70);
+   }
+   .CSS {
+     background-color:rgb(36, 72, 210);
+     padding: 2px 6px;
+     border-radius: 4px;
+   }
+   a.CSS:hover {
+     background-color:rgb(36, 170, 255);
+   }
+   .JS {
+     background-color:rgb(255, 223, 63);
+     padding: 2px 6px;
+     border-radius: 4px;
+   }
+   a.JS:hover {
+     background-color:rgb(255, 190, 170);
+   }
+   #html-logo-area img {
+     height: 40px;         
+     width: auto;
+     margin-left:10px;
+   }
+   #html-logo-area {
+     display:flex;
+     align-items:center;   
+   }
+   #css-logo-area img {
+     height: 40px;         
+     width: auto;
+     margin-left:15px;
+   }
+   #css-logo-area {
+    display:flex;
+    align-items:center;   
+   }
+   
+   #js-logo-area img {
+    height: 60px;         
+    width: 65px;
+    margin-left:1px;
+   }
+   #js-logo-area {
+   display:flex;
+   align-items:center;   
+   }
+   body{
+     background-color:black;
+     color:white;
+     
+   }
+   h1 span.HTML , h1 span.CSS , h1 span.JS {
+     font-family:corbel;
+     font-style:italic;
+     font-size:40px;
+   }
